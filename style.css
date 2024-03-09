@@ -1,17 +1,85 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: monospace;
 
 }
+
 .cabecalho {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #000000;
     padding: 60px;
+    flex-wrap: wrap;
 }
-.cabecalho i{
+
+.cabecalho i {
     font-size: 100px;
     color: snow;
+
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    background-color: #141325;
+
+}
+
+.menu {
+    display: flex;
+}
+
+
+.menu li {
+    margin-left: 13px;
+
+
+}
+
+h1 {
+    text-align: center;
+    /*Aqui usamos para alinhar o texto ao centro*/
+    margin-top: 100px;
+    /*Aqui colocamos */
+}
+
+.flex {
+    display: flex;
+    /*Aqui atribuímos */
+    flex-wrap: wrap;
+    /**/
+    max-width: 800px;
+    /*Adaptação máxima Dos Conteúdos que estão dentro da section (div)*/
+    margin: 0 auto;
+    /*Centralizar As Divs*/
+}
+
+.flex img {
+    display: block;
+    /*Adaptação máxima da div*/
+    max-width: 100%;
+    /*Reforçando que minhas imagens estejam em formatos de blocos*/
+    margin: 0 auto;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.flex img {
+    width: 200px;
+    height: 200px;
+}
+.flex div {
+    margin: 10px;
+    /*alterar o espaçamento das margens laterais*/
+    flex: 1 1 200px;
+    /**/
+}
+
+.secao{
+    padding: 100px;
+    background-color: #fe1cac;
+    color: #faeddf;
 }
